@@ -95,6 +95,7 @@ WHERE genre = 'Fantasy';
 
 -- 13) Show the top 3 most expensive books of 'Fantasy' Genre
 SELECT * FROM books
+WHERE genre = 'Fantasy'
 ORDER BY price DESC 
 LIMIT 3;
 
